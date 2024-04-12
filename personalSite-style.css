@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #286b22;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    z-index: 10;
+  }
+  
+nav {
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+nav li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    display: inline-block;
+    width: 100px;
+}
+
+nav a:link {
+  color: white;
+}
+
+main {
+  position: relative;
+  top: 100px;
+}
+
+article h2 {
+  text-align: center;
+}
+
+#white-text {
+  color: white;
+}
+
+footer {
+  background-color: #286b22;
+}
