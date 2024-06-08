@@ -1,10 +1,7 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
 header {
-    background-color: #286b22;
+    background-color: #0d4408;
     position: fixed;
+    top: 0px;
     width: 100%;
     height: 75px;
     z-index: 10;
@@ -28,12 +25,30 @@ nav a:link {
 }
 
 main {
+  background-color:#3b3110;
   position: relative;
-  top: 100px;
+  padding: 70px 0px;
+}
+
+article h1 {
+  font-size: 35px;
+  text-align: center;
 }
 
 article h2 {
   text-align: center;
+}
+
+.about-me-image {
+  height: 650px;
+  background-image: url("https://github.com/SeattleKCD/SeattleKCD.github.io/blob/main/7_ages_collage.jpeg?raw=true");
+  background-size: cover;
+}
+
+.interests-image {
+  height: 800px;
+  background-image: url("https://github.com/SeattleKCD/SeattleKCD.github.io/blob/main/all_things_collage.jpeg?raw=true");
+  background-size: cover;
 }
 
 #white-text {
@@ -41,5 +56,8 @@ article h2 {
 }
 
 footer {
+  margin: 0px;
+  padding: 10px;
   background-color: #286b22;
+  position: relative;
 }
